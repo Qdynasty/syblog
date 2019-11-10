@@ -1,8 +1,11 @@
-from flask_script import Manager
-from info import create_app,db,models
-from flask_migrate import Migrate,MigrateCommand
-from info.models import User
+# @author wangchao
+
 from flask import current_app
+from flask_migrate import Migrate,MigrateCommand
+from flask_script import Manager
+from info import create_app, db
+from info.models import User
+
 # 调用create_app 传入工厂模式
 app = create_app("development")
 # 通过manager管理app
