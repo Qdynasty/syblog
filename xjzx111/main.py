@@ -7,6 +7,7 @@ from flask_migrate import Migrate,MigrateCommand
 from flask_script import Manager
 from info import create_app, db
 from info.models import User
+from flask import current_app
 
 # 调用create_app 传入工厂模式
 app = create_app("development")
