@@ -1,4 +1,6 @@
 # @author wangchao
+# @Time 2019
+
 
 from flask import current_app
 from flask_migrate import Migrate,MigrateCommand
